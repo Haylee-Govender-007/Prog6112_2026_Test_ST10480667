@@ -72,6 +72,7 @@ public class Prog_Test_Question1 {
              
         }
          
+        // Displaying the city with most sales  
         System.out.println();
         System.out.println("CITY WITH THE MOST SALES: " + highestCity.toUpperCase());
         System.out.println("-".repeat(50));
