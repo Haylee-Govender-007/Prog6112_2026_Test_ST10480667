@@ -47,6 +47,18 @@ public class Prog_Test_Question1 {
             System.out.println();
         }
          
-        
+         // Displaying heading
+         System.out.println("-".repeat(50));
+         System.out.println("CONSOLE SALES TOTALS FOR EACH CITY");
+         System.out.println("-".repeat(50));
+          
+         // For loop used to calculate total number of sales for ech city
+         for (int i = 0; i < city.length; i++) {
+            
+            int total = numOfSales[i][0] + numOfSales[i][1] + numOfSales[i][2];
+            // Display city with total
+             System.out.println(city[i] + "\t"+total);
+             
+        }
     }
 }
