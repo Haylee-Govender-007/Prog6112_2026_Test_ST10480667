@@ -10,6 +10,8 @@ package com.mycompany.prog_test_question2;
  */
 public interface iConsole {
     
-    
+    String getConsoleType();
+    String getStore(); 
+    int getTotalSales();
     
 }

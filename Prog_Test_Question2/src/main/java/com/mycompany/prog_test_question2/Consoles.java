@@ -10,4 +10,33 @@ package com.mycompany.prog_test_question2;
  */
 public abstract class Consoles implements iConsole {
     
+    // Variables to store the following
+    private String consoleType; 
+    private String store; 
+    private int totalSales; 
+
+    // Constructor to accept data
+    public Consoles(String consoleType, String store, int totalSales) {
+        this.consoleType = consoleType;
+        this.store = store;
+        this.totalSales = totalSales;
+    }
+
+    // Getters
+    public String getConsoleType() {
+        return consoleType;
+    }
+
+    public String getStore() {
+        return store;
+    }
+
+    public int getTotalSales() {
+        return totalSales;
+    }
+    
+    
+    
+    
+    
 }
